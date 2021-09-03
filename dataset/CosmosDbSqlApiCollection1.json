@@ -1,0 +1,28 @@
+{
+	"name": "CosmosDbSqlApiCollection1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosConnection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {
+			"type": "object",
+			"properties": {
+				"storeid": {
+					"type": "integer"
+				},
+				"data": {
+					"type": "string"
+				},
+				"docTime": {
+					"type": "string"
+				}
+			}
+		},
+		"typeProperties": {
+			"collectionName": "primary"
+		}
+	}
+}
